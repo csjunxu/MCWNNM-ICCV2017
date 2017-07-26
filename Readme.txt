@@ -52,7 +52,7 @@ Please download the data from corresponding addresses.
                         https://github.com/csjunxu/MCWNNM_ICCV2017
                                                 The *real.png are noisy images;
                                                 The *mean.png are "ground truth" images;
-                                                The *real.png are denoised images by CC.
+                                                The *ours.png are images denoised by CC.
 
 [1] A Holistic Approach to Cross-Channel Image Noise Modeling and its Application to Image Denoising. 
      Seonghyeon Nam*, Youngbae Hwang*, Yasuyuki Matsushita, Seon Joo Kim, CVPR, 2016.
