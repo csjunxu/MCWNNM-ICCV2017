@@ -22,9 +22,9 @@ this will improve the performance and robustness of the MCWNNM method.
 6. To be continued.
 
 
-Hope all this ideas will help you to have a happy experimence with MCWNNM :)
-I would be very appreciated if you could cite my paper (more is better) in your 
-future publications, or coauther with me :D
+Hope all these ideas will help you to have a happy experimence with MCWNNM :)
+I would be very appreciated if you could cite my paper (more is better :D) in your 
+future publications :D
 Good Luck! 
 
 Reference:
