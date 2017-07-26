@@ -18,11 +18,16 @@ Please see the file License.txt for the license governing this code.
 
 Notice:
 ------------
-We are still optimize the code.
+1. We are still optimize the code. In fact, this model can achieve much better performance followed by the
+suggestions in the file ''PossibleExtension.txt''. 
+
+2. The optimized code is provided in https://github.com/csjunxu/MCWNNM_ICCV2017.
+
+3. If you want to follow this work and has no ideas, please read ''PossibleExtension.txt''.
 
 Overview
 ------------
-The function "Demo_MCWNNM_ADMM[1|2]" demonstrates color image denoising with the MCWNNM
+The function "Demo_MCWNNM_ADMM[1||2]" demonstrates color image denoising with the MCWNNM
 models introduced in the paper. They use the same model, but with different settings. You can choose 
 any setting for your purpose.
 
@@ -35,14 +40,22 @@ without "ground truth" by the MCWNNM models introduced in the paper.
 
 Data
 ------------
-Please download the data on my personal website.
-
+Please download the data from corresponding addresses.
 1. kodak_color: 24 high quality color images from Kodak PhotoCD dataset
+                        This dataset can be found at http://r0k.us/graphics/kodak/
 2. NoiseClinicImages: real noisy images with no ''ground truth''
-3. Real_ccnoise_denoised_part: 15 cropped real noisy images from CC [18]. 
+                        This dataset can be found at http://demo.ipol.im/demo/125/
+3. Real_ccnoise_denoised_part: 15 cropped real noisy images from CC [1]. 
+                        This dataset can be found at  http://snam.ml/research/ccnoise
+                        The smaller 15 cropped images can be found on in the directory 
+                        ''Real_ccnoise_denoised_part'' of 
+                        https://github.com/csjunxu/MCWNNM_ICCV2017
                                                 The *real.png are noisy images;
                                                 The *mean.png are "ground truth" images;
                                                 The *real.png are denoised images by CC.
+
+[1] A Holistic Approach to Cross-Channel Image Noise Modeling and its Application to Image Denoising. 
+     Seonghyeon Nam*, Youngbae Hwang*, Yasuyuki Matsushita, Seon Joo Kim, CVPR, 2016.
 
 Dependency
 ------------
@@ -50,5 +63,5 @@ This code is implemented purely in Matlab2014b and doesn't depends on any other 
 
 Contact
 ------------
-If you have questions, problems with the code, or find a bug, please let us know. Contact Jun Xu at 
-csjunxu@comp.polyu.edu.hk or nankaimathxujun@gmail.com.
+If you have any questions or suggestions with the code, or find a bug, please let us know. 
+Contact Jun Xu at csjunxu@comp.polyu.edu.hk or nankaimathxujun@gmail.com.

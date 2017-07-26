@@ -1,0 +1,38 @@
+This work can be extended for many directions. 
+Since I am busy doing other projects, I provide these potential ideas for you! 
+Hope that you can publish much more paper than I expect!
+
+1. It is worthy to investigate new weight matrix beyond the diagonal form, such as the 
+correlation form [1], to further improve the color image denoising performance.
+
+2. The proposed MCWNNM model can be extended for hyperspectral image analysis, 
+which may contain hundreds of bands with complex noise statistics.
+
+3. The idea of extending to color image denoising methods can be applied to other 
+(amount of) gray image denosing methods.
+
+4. The MCWNNM has the potential to deal with other low level vision problems in 
+color images such as the background subtraction, and image inpainting tasks, just as
+the [2] did.
+
+5. The parameter ''Par.lambda'' can be designed as a 3-dimensional vector, each of 
+which controlling the noise levels in R, G, and B channels, respectively. I believe that 
+this will improve the performance and robustness of the MCWNNM method.
+
+6. To be continued.
+
+
+Hope all this ideas will help you to have a happy experimence with MCWNNM :)
+I would be very appreciated if you could cite my paper (more is better) in your 
+future publications, or coauther with me :D
+Good Luck! 
+
+Reference:
+
+[1] N. J. Higham. Computing the nearest correlation matrix: a problem from finance. 
+     IMA Journal of Numerical Analysis, 22(3):329, 2002.
+
+[2] Gu S, et al. Weighted nuclear norm minimization and its applications to low level vision. 
+     International journal of computer vision, 2017, 121(2): 183-208.
+
+Copyright @ Jun Xu, 26/07/2017.
