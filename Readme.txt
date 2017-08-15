@@ -69,4 +69,4 @@ Contact Jun Xu at csjunxu@comp.polyu.edu.hk or nankaimathxujun@gmail.com.
 
 Update:
 1. 08/15/2017: Complement the "PGs2Image.m" function. 
-Thanks Zi-Fa Han for pointingout the missing of this function. 
+Thanks Zi-Fa Han for pointing out the missing of this function. 
