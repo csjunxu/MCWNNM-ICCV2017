@@ -11,8 +11,7 @@
 % 	journal = {ICCV},
 % 	year = {2017}
 % }
-%
-% This is not the final version of MCWNNM, please do not distribute.
+% 
 % Please see the file License.txt for the license governing this code.
 %-------------------------------------------------------------------------------------------------------------
 
