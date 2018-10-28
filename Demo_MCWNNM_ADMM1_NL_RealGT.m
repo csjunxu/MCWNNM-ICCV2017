@@ -40,11 +40,11 @@ Par.model   = '2';
 Par.maxIter = 10;
 
 
-for mu = [1 1.01]
+for mu = [1]
     Par.mu = mu;
-    for rho = [6 5 4]
+    for rho = [6]
         Par.rho = rho;
-        for lambda = [3.9 4 4.1]
+        for lambda = [4]
             Par.lambda = lambda;
             % record all the results in each iteration
             Par.PSNR = zeros(Par.Iter, im_num, 'single');
