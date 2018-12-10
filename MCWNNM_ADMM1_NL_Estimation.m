@@ -1,4 +1,4 @@
-clea
+function [ Y_hat, W_hat] = MCWNNM_ADMM1_NL_Estimation( NL_mat, Sigma_arr, CurPat, Par )
 
 Y_hat = zeros(size(CurPat));
 W_hat    = zeros(size(CurPat));
